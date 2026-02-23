@@ -1,19 +1,4 @@
-/*Problem: Read a string and check if it is a palindrome using two-pointer comparison.
-
-Input:
-- Single line: string s
-
-Output:
-- Print YES if palindrome, otherwise NO
-
-Example:
-Input:
-level
-
-Output:
-YES
-
-Explanation: String reads same forwards and backwards*/
+/*Problem: Read a string and check if it is a palindrome using two-pointer comparison*/
 #include <stdio.h>
 #include <string.h>
 
@@ -40,4 +25,5 @@ int main() {
         printf("NO");
 
     return 0;
+
 }
